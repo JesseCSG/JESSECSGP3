@@ -52,10 +52,6 @@ $("document").ready(function() {
     //*Alteration to a h3 tag.
     $("#h3tag").css({"background-color": "darkblue", "border-style": "double"});
     
-    $("#animateList li a").css({"cursor": "pointer","transition": "padding-left 250ms ease-out"});
-
-    $("#animateList li a:hover").css("padding-left", "20px");
-    
     //*Gives ability to remove a specific text and tag
     $("#RemoveAPara").bind("click", removeAPara)
                      .css("background-color", "blue");
